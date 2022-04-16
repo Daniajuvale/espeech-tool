@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177.7" height="177.54" viewBox="0 0 177.7 177.54">
+  <defs>
+    <filter id="Base_1" x="0" y="0" width="177.7" height="177.54" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-opacity="0.31"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3bca32"/>
+      <stop offset="1" stop-color="#76e26d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset="0.726" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Start" transform="translate(21.7 15.22)">
+    <g transform="matrix(1, 0, 0, 1, -21.7, -15.22)" filter="url(#Base_1)">
+      <path id="Base_1-2" data-name="Base 1" d="M64.84,1.78c16.37,0,31.15,5.63,42.27,15.96C119.33,29.1,124,45.01,124,63.01c0,18.28-4.8,33.55-17.35,44.94C95.6,117.97,78.9,125.32,62.8,125.32c-19.16,0-35.89-7.21-47.3-20.84C6.44,93.67.3,77.05.3,61.84c0-21.07,11.12-39.14,27.14-50.4C37.55,4.35,51.55,1.78,64.84,1.78Z" transform="translate(21.7 15.22)" fill="#fff"/>
+    </g>
+    <path id="Base_2" data-name="Base 2" d="M63.18,6.46c15.15,0,26.7,4.99,36.98,14.54,11.33,10.52,18.87,25.24,18.87,41.91a56.561,56.561,0,0,1-18.86,42.29c-10.22,9.28-22.42,13.83-37.32,13.83-17.73,0-31.32-8.22-41.9-20.82C12.57,88.2,7.14,75.9,7.14,61.83A57.539,57.539,0,0,1,31.67,14.67C41.03,8.09,50.87,6.46,63.18,6.46Z" fill="url(#linear-gradient)"/>
+    <path id="Shadow" d="M8.46,71.02c1.73,11.29,21.05,42.86,59.72,32.93,61.17-15.7,44.97-67.15,44.97-67.15l9.09,15.69s1.54,28.99-8.19,44.85c-3.75,6.11-26.87,27.09-52.5,25.32-13.1-.91-36.49-10.86-44.17-19.3S3.39,74.87,3.39,74.87" fill="#2ab12a" opacity="0.251"/>
+    <path id="Light" d="M16.85,96.11c.39.4-12.01-39.82,10.46-59.19,18.8-16.22,39.73-26.79,61.57-17.9C116,30.05,119.13,49.63,119.13,49.63s-.74-16.15-18.06-32.89C77.22-6.31,45.88-3.06,24.46,14.19-6.1,38.78,2.75,82.07,16.85,96.11Z" fill="#fff" opacity="0.502"/>
+    <path id="Highlight" d="M30.61,25.42c4.33-4.07,18.52-5.09,6.48,2.59-6.2,3.95-12.21,12.37-13.37,12.06C22.65,39.77,23.1,32.47,30.61,25.42Zm21.66-8.37c.91,1.68.53,3.86-2.62,4.42s-4.69-1.99-2.78-4.07C48.27,15.86,51.33,15.39,52.27,17.05Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="Play_icon" data-name="Play icon" d="M54.2,34.91c-5,.58-7.68,7.36-6.85,25.35.82,17.85-1.55,27.09,5.28,28.88,6.83,1.81,30.2-16.02,35.23-21.04s3.21-9.87-3.98-15.62S58.47,34.42,54.2,34.91Z" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

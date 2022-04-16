@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190.186" height="193" viewBox="0 0 190.186 193">
+  <defs>
+    <filter id="Base_1" x="0" y="0" width="190.186" height="193" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-opacity="0.31"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Home" transform="translate(-649 -235)">
+    <g id="Buttons" transform="translate(670.49 251.65)">
+      <g id="More_games_btn" data-name="More games btn" transform="translate(0.51 0.35)">
+        <g transform="matrix(1, 0, 0, 1, -22, -17)" filter="url(#Base_1)">
+          <path id="Base_1-2" data-name="Base 1" d="M71.561.35c18.179,0,30.175,8.668,42.5,20.13,13.6,12.612,22.636,30.277,22.636,50.284,0,20.294-4.765,37.261-18.692,49.914C105.72,131.811,87.172,139.35,69.3,139.35c-21.28,0-39.212-7.395-51.886-22.533C7.35,104.821.51,86.355.51,69.47c0-23.4,13.578-44.081,31.366-56.59A68.831,68.831,0,0,1,71.561.35Z" transform="translate(21.49 16.65)" fill="#fff"/>
+        </g>
+        <path id="Base_2" data-name="Base 2" d="M64.959,5.16c16.186,0,28.552,5.341,39.562,15.57,12.1,11.236,20.171,26.991,20.171,44.82A60.549,60.549,0,0,1,104.52,110.8c-10.928,9.921-23.992,14.769-39.911,14.769-18.98,0-33.523-8.771-44.841-22.266C10.813,92.6,5,79.456,5,64.4A61.527,61.527,0,0,1,31.231,13.951C41.255,6.906,51.792,5.16,64.959,5.16Z" transform="translate(4.223 4.72)" fill="#4ed145"/>
+        <path id="Shadow" d="M8.473,57.584c1.849,12.057,22.513,45.827,63.882,35.207C137.8,76.009,120.462,20.96,120.462,20.96l9.736,16.8s1.623,31-8.771,47.963C117.4,92.278,92.69,114.708,65.268,112.8,51.239,111.833,26.22,101.193,18,92.155S3.05,61.693,3.05,61.693" transform="translate(2.167 21.375)" fill="#4ed145" opacity="0.251"/>
+        <path id="Light" d="M17.155,104.414c.431.431-12.838-42.6,11.195-63.327C48.48,23.75,70.869,12.453,94.224,21.942c29,11.79,32.352,32.742,32.352,32.742S125.8,37.41,107.268,19.519C81.756-5.151,48.213-1.659,25.289,16.787-7.391,43.079,2.078,89.4,17.155,104.414Z" transform="translate(2.441 1.371)" fill="#fff" opacity="0.502"/>
+        <path id="Highlight" d="M17.078,20.236c-4.868,4.088-7.7,19.062,1.931,7.21,4.971-6.1,14.666-11.462,14.461-12.715C33.285,13.539,25.5,13.128,17.078,20.236Z" transform="translate(12.234 14.088)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="home-2" data-name="home" transform="translate(706.598 277.851)">
+      <g id="Group_8" data-name="Group 8" transform="translate(0 12.675)">
+        <g id="Group_7" data-name="Group 7" transform="translate(0)">
+          <path id="Path_1" data-name="Path 1" d="M63.717,40.042,34.641,13.548a3.308,3.308,0,0,0-4.477,0L1.088,40.042a3.323,3.323,0,0,0,2.238,5.779H7.971V72.366a1.906,1.906,0,0,0,1.906,1.906H25.814a1.906,1.906,0,0,0,1.906-1.906V56.249h9.367V72.367a1.906,1.906,0,0,0,1.906,1.906H54.929a1.906,1.906,0,0,0,1.906-1.906V45.821h4.645a3.323,3.323,0,0,0,2.238-5.78Z" transform="translate(0 -12.675)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_10" data-name="Group 10" transform="translate(43.538 16.48)">
+        <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+          <path id="Path_2" data-name="Path 2" d="M356.772,42.73h-12.8l14.7,13.371V44.636A1.906,1.906,0,0,0,356.772,42.73Z" transform="translate(-343.973 -42.73)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
