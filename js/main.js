@@ -46,7 +46,7 @@ async function handleSuccess(stream) {
   let dst = new cv.Mat(video.videoHeight, video.videoWidth, cv.CV_8UC1);
   let cap = new cv.VideoCapture(video);
 
-  const FPS = 30;
+  const FPS = 5;
   
   setInterval(() => {
       cap.read(src);
@@ -58,7 +58,8 @@ async function handleSuccess(stream) {
       // cv.cvtColor(src, dst, cv.COLOR_RGB2GRAY);
       // cv.imshow('canvasOutput', dst);
       socket.emit('image', data);
-  }, 10000/FPS);
+      console.log("Image sent")
+  }, 200);
 }
 
 function handleError(error) {
