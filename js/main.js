@@ -59,7 +59,7 @@ async function handleSuccess(stream) {
       // cv.imshow('canvasOutput', dst);
       socket.emit('image', data);
       console.log("Image sent")
-  }, 150);
+  }, 200);
 }
 
 function handleError(error) {
